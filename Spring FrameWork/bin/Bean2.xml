@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="student" class="com.Spring3.Student">
+		<constructor-arg name="id" value="10001"></constructor-arg>
+		<constructor-arg name="name" value="Mahesh Kumar"></constructor-arg>
+		<constructor-arg name="address" ref="address"></constructor-arg>
+
+	</bean>
+
+	<bean id="address" class="com.Spring3.Address">
+		<constructor-arg name="doorNo" value="5-1123"></constructor-arg>
+		<constructor-arg name="city" value="Kothacheruvu"></constructor-arg>
+		<constructor-arg name="state" value="Andhra Pradesh"></constructor-arg>
+	</bean>
+
+
+
+
+</beans>

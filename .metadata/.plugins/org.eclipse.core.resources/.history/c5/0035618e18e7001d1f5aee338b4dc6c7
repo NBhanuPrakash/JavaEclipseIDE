@@ -1,0 +1,95 @@
+package com.Banking;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;	
+import java.util.Scanner;
+
+public class main {
+	
+	
+	static Map<String, User> map = new HashMap<>();
+	static Scanner scanner = new Scanner(System.in);
+	static boolean exit = true;
+	
+
+	public static void main(String[] args) throws IOException {
+		Logo fuLogo = new Logo();
+		fuLogo.filelogo();
+		
+		while (exit) {
+			Print("");
+			Print("************************************************************************");
+			Print("New Admin user Registration.....");
+			Print("Login Account.....");
+			Print("Plan Journey.....");
+			Print("Allow the user to edit travel date....");
+			Print("LogOut.....");
+			int userChoice = scanner.nextInt();
+			
+			switch (userChoice) {
+			case 1:
+				
+				break;
+
+			default:
+				break;
+			}
+			
+			
+		}
+		
+
+	}
+	public static void registration() {
+		
+		String nameString = capturefullName();
+		String mobileNumberString = capturemobileNumber();
+		String genderString = captureGender();
+		
+	}
+	
+	public static String capturefullName() {
+		System.out.println("Enter Your First Name");
+		String firstName = scanner.next();
+		System.out.println("ENter Your Last Name");
+		String lastNameString = scanner.next();
+		String string = firstName.concat(lastNameString);
+		return string;
+		
+	}
+	 private static String capturemobileNumber() {
+		 String mobileNumString = scanner.next();
+		 while (mobileNumString.length()!=10) {
+			 throw new Exception("Your Mobile NUmber Is Invalid :)");
+			
+		}
+		 return mobileNumString;
+	 }
+	 
+	 private static String captureGender() {
+		 String genderString = scanner.next();
+		 while (!genderString.equalsIgnoreCase("Male") || genderString.equalsIgnoreCase("Female")) {
+			throw new Exception("Gender Is INvalid... Please Check With the Gender");
+		}
+		 return genderString;
+	 }
+	 
+	 private static String captureEmailId() {
+		 String emailIdString = scanner.next();
+		 String laString = "@gmail.com";
+		 StringBuilder stringBuilder = new StringBuilder();
+		 
+		 
+		 return null;
+	 }
+	
+	
+	
+	
+	static void Print(String printString) {
+		System.out.println(printString);
+		
+	}
+
+}

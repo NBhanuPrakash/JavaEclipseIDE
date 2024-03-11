@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="class" class="com.Spring4.Class" autowire="byType">
+		<property name="classNameString" value="10TH Class"></property>
+	</bean>
+
+	<bean id="student" class="com.Spring4.Students" autowire="byType">
+		<property name="studentName" value="Bhanu"></property>
+	</bean>
+	
+	<bean id="teacher" class="com.Spring4.Teacher">
+		<property name="teacherName" value="Radhika"></property>
+		<property name="teacherId" value="10001"></property>
+	</bean>
+	
+	<bean id="books" class="com.Spring4.Books">
+		<property name="bookNameString" value="Physics"></property>
+		<property name="bookAuthor" value="Dr.BR Ambedkar "></property>
+	</bean>
+	
+	
+
+
+</beans>

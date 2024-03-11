@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="u1" class="com.Spring2.User">
+	<!-- This is SEtter Injection -->
+		<!--  <property name="id" value="1002"></property>
+		<property name="nameString" value="Ramesh"></property>
+		    -->
+		    <!-- This is Constructor Injection -->
+		    <constructor-arg name="id" value="10005"></constructor-arg>
+		    <constructor-arg name="nameString" value="Bhanu Sai"></constructor-arg>
+	</bean>
+
+
+</beans>

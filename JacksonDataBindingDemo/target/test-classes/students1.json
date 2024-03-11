@@ -1,0 +1,12 @@
+{
+  "stdName" : "Mahesh Kumar",
+  "stdId" : 1002,
+  "stdSubject" : "Biology",
+  "address" : {
+    "doorNumber" : "5-1123",
+    "colonyName" : "Bc colony",
+    "cityName" : "Kothacheruvu",
+    "stateName" : "andhra Pradesh",
+    "pincode" : 515133
+  }
+}

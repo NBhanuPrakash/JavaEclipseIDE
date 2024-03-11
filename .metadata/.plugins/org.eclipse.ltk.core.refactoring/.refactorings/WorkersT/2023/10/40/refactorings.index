@@ -1,0 +1,11 @@
+1696489777907	Delete element
+1696491401231	Rename resource 'workerT-servlet.xml'
+1696491565424	Rename resource 'worker-servlet.xml'
+1696492147386	Rename resource 'workerst-servlet.xml'
+1696494516836	Delete element
+1696502634200	Move file
+1696502653409	Move 'web.xml' to 'WEB-INF'
+1696502659490	Move 'Bean.xml' to 'main'
+1696502705795	Move 'Bean.xml' to 'src'
+1696502793153	Move 'Bean.xml' to 'java'
+1696665951891	Copy file

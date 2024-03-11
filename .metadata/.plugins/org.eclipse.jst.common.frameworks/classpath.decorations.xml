@@ -1,0 +1,21 @@
+<classpath>
+  <container id="SignInSignUp!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/DELL/eclipse-workspace/SignInSignUp/src/main/webapp/WEB-INF/lib/spring-jdbc-5.3.0-M2.jar">
+      <source-attachment-path>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main</source-attachment-path>
+    </entry>
+    <entry id="C:/Users/DELL/eclipse-workspace/SignInSignUp/src/main/webapp/WEB-INF/lib/spring-webmvc-5.3.0-M2.jar">
+      <source-attachment-path>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main</source-attachment-path>
+    </entry>
+  </container>
+  <container id="WorkersT!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="C:/Users/DELL/eclipse-workspace/WorkersT/src/main/webapp/WEB-INF/lib/spring-context-5.3.0-M2.jar">
+      <source-attachment-path>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main</source-attachment-path>
+    </entry>
+    <entry id="C:/Users/DELL/eclipse-workspace/WorkersT/src/main/webapp/WEB-INF/lib/spring-webflux-5.3.0-M2.jar">
+      <source-attachment-path>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main</source-attachment-path>
+    </entry>
+    <entry id="C:/Users/DELL/eclipse-workspace/WorkersT/src/main/webapp/WEB-INF/lib/spring-webmvc-5.3.0-M2.jar">
+      <source-attachment-path>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main/spring-webmvc</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

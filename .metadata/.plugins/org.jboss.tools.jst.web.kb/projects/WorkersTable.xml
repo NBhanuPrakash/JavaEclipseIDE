@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/DELL/eclipse-workspace/WorkersTable/src/main/webapp/WEB-INF/lib/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0-rt.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c-1_0.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/c.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0-rt.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt-1_0.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fmt.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/fn.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/permittedtaglibs.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/scriptfree.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0-rt.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql-1_0.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/sql.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0-rt.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x-1_0.tld" project="WorkersTable"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/meta-inf/x.tld" project="WorkersTable"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/DELL/eclipse-workspace/WorkersTable/src/main/webapp/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.2.jar"/>
+  <path value="C:/Users/DELL/eclipse-workspace/WorkersTable/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.29.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="20" name="%0" offset="1512" path="%1"/>
+   <linked-el length="21" name="%2" offset="1475" path="%1"/>
+   <linked-el length="12" name="%3" offset="1346" path="%1"/>
+   <linked-el length="19" name="%4" offset="1374" path="%1"/>
+   <linked-el length="16" name="%5" offset="1443" path="%1"/>
+   <linked-el length="15" name="%6" offset="1309" path="%1"/>
+   <linked-el length="18" name="%7" offset="1409" path="%1"/>
+   <linked-el length="20" name="%8" offset="1512" path="%1"/>
+   <linked-el length="16" name="%8" offset="1443" path="%1"/>
+   <linked-el length="21" name="%8" offset="1475" path="%1"/>
+   <linked-el length="12" name="%8" offset="1346" path="%1"/>
+   <linked-el length="18" name="%8" offset="1409" path="%1"/>
+   <linked-el length="19" name="%8" offset="1374" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="worker.department" value="%0"/>
+  <alias path="worker.joiningDate" value="%2"/>
+  <alias path="/WorkersTable/src/main/webapp/Menu.jsp" value="%1"/>
+  <alias path="worker.id" value="%3"/>
+  <alias path="worker.firstname" value="%4"/>
+  <alias path="worker.salary" value="%5"/>
+  <alias path="dbDataList" value="%6"/>
+  <alias path="worker.lastname" value="%7"/>
+  <alias path="worker" value="%8"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

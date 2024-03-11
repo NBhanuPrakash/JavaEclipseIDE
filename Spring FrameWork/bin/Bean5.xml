@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+        
+        <context:annotation-config></context:annotation-config>
+        
+        <bean id="ceo" class="Spring6.Ceo">
+        <property name="ceoN" value="Bhanu Prakash"></property>
+        <property name="ceoPhN" value="9989639321"></property>
+        </bean>
+        
+        <bean id="emp1" class="Spring6.Employee">
+        <property name="id" value="1001"></property>
+        <property name="empString" value="Ganesh"></property>
+        </bean>
+        
+        <bean id="emp2" class="Spring6.Employee">
+        <property name="id" value="1002"></property>
+        <property name="empString" value="Ramesh"></property>
+        </bean>
+
+</beans>

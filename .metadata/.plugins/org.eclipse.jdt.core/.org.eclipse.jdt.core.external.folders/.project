@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main/spring-webmvc</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main/spring-jdbc</location>
+		</link>
+		<link>
+			<name>.link3</name>
+			<type>2</type>
+			<location>E:/Bhanu/Technical Aspect/JFS/BackEnd Development/Spring FrameWork/spring-framework-main</location>
+		</link>
+	</linkedResources>
+</projectDescription>

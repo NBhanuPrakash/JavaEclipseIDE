@@ -1,0 +1,17 @@
+package com.POJOS;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.Users.Dbusercredentials;
+
+public class Controller {
+	
+	public static Connection connect(Connection connection) throws SQLException {
+		connection = DriverManager.getConnection(Dbusercredentials.DBURL_STRING, Dbusercredentials.USER_STRING, Dbusercredentials.PSSWORD_STRING);
+		return connection;
+		
+	}
+
+}

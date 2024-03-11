@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Dbusercredentials.java&apos; to &apos;TravelProject/src/main/java/com.Users&apos;&#x0D;&#x0A;- Original project: &apos;JDBC&apos;&#x0D;&#x0A;- Destination element: &apos;TravelProject/src/main/java/com.Users&apos;&#x0D;&#x0A;- Original element: &apos;com.credentials.Dbusercredentials.java&apos;" description="Copy compilation unit" destination="=TravelProject/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.Users" element1="/src&lt;com.credentials{Dbusercredentials.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1692333728289" units="1" version="1.0"/>
+</session>

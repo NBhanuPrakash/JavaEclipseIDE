@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+	<context:annotation-config></context:annotation-config>
+	
+	
+	<bean id="cls" class="com.Spring5.Class">
+		<property name="classNameString" value="10TH Class"></property>
+	</bean>
+
+	<bean id="student" class="com.Spring5.Students">
+		<property name="studentName" value="Bhanu"></property>
+	</bean>
+
+	<bean id="teacher" class="com.Spring5.Teacher">
+		<property name="teacherName" value="Radhika"></property>
+		<property name="teacherId" value="10001"></property>
+	</bean>
+
+	<bean id="books" class="com.Spring5.Books">
+		<property name="bookNameString" value="Physics"></property>
+		<property name="bookAuthor" value="Dr.BR Ambedkar "></property>
+	</bean>
+
+</beans>

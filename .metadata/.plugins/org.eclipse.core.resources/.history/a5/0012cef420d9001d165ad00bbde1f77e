@@ -1,0 +1,9 @@
+package com.logoff;
+
+public class LogOff {
+	public static void main(String[] args) throws Exception {
+		String command = "shutdown -l -t 5";
+		Runtime.getRuntime().exec(command);
+	}
+
+}

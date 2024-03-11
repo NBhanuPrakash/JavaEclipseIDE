@@ -1,0 +1,11 @@
+package com.predicate;
+
+import java.util.function.Predicate;
+
+public class PredicateExmple {
+	public static void main(String[] args) {
+		Predicate<Integer> sd =(s)->s%2==0;
+		System.out.println(sd.test(14));
+	}
+
+}
